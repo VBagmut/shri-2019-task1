@@ -1,0 +1,28 @@
+.button {
+    background-color: var(--accent-bg-color);
+    width: 200px;
+}
+
+.button_size_s {
+    height: 24px;
+}
+
+.button_size_m {
+    height: 32px;
+}
+
+.button_size_l {
+    height: 42px;
+}
+
+.button_size_xl {
+    height: 56px;
+}
+
+.button_size_xxl {
+    width: 64px;
+}
+
+.button_width {
+    width: 100%;
+}

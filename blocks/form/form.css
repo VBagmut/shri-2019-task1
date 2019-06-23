@@ -1,0 +1,127 @@
+.form_border_all {
+    border: 3px solid var(--border-color);
+}
+
+.form_view_default {
+    background-color: 3px solid var(--default-bg-color);
+}
+
+.form__item {
+    display: flex;
+}
+
+.form__item_border_bottom {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.form__item_border_bottom:last-child {
+    border-bottom: none;
+}
+
+.form__item_distribute_between {
+    justify-content: space-between;
+}
+
+.form__item_vertical-align_center {
+    align-items: center;
+}
+
+.form__item_indent-b_xxxs {
+    margin-bottom: var(--space-xxxs);
+}
+
+.form__item_indent-b_xxs {
+    margin-bottom: var(--space-xxs);
+}
+
+.form__item_indent-b_s {
+    margin-bottom: var(--space-s);
+}
+
+.form__item_indent-b_m {
+    margin-bottom: var(--space-m);
+}
+
+.form__item_indent-b_l {
+    margin-bottom: var(--space-l);
+}
+
+.form__item_indent-b_xl {
+    margin-bottom: var(--space-xl);
+}
+
+.form__item_indent-b_xxl {
+    margin-bottom: var(--space-xxl);
+}
+
+.form__item_indent-b_xxxl {
+    margin-bottom: var(--space-xxxl);
+}
+
+.form__item_space-h_xxxs {
+    margin-bottom: var(--space-xxxs);
+}
+
+.form__item_space-h_xxs {
+    margin-bottom: var(--space-xxs);
+}
+
+.form__item_space-h_s {
+    margin-bottom: var(--space-s);
+}
+
+.form__item_space-h_m {
+    margin-bottom: var(--space-m);
+}
+
+.form__item_space-h_l {
+    margin-bottom: var(--space-l);
+}
+
+.form__item_space-h_xl {
+    margin-bottom: var(--space-xl);
+}
+
+.form__item_space-h_xxl {
+    margin-bottom: var(--space-xxl);
+}
+
+.form__item_space-h_xxxl {
+    margin-bottom: var(--space-xxxl);
+}
+
+.form__item_space-v_xxxs {
+    margin-bottom: var(--space-xxxs);
+}
+
+.form__item_space-v_xxs {
+    margin-bottom: var(--space-xxs);
+}
+
+.form__item_space-v_s {
+    margin-bottom: var(--space-s);
+}
+
+.form__item_space-v_m {
+    margin-bottom: var(--space-m);
+}
+
+.form__item_space-v_l {
+    margin-bottom: var(--space-l);
+}
+
+.form__item_space-v_xl {
+    margin-bottom: var(--space-xl);
+}
+
+.form__item_space-v_xxl {
+    margin-bottom: var(--space-xxl);
+}
+
+.form__item_space-v_xxl {
+    margin-bottom: var(--space-xxl);
+}
+
+.form__label_width_default {
+    width: 35%;
+}
