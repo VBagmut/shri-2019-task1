@@ -1,5 +1,8 @@
-.layout__container_align_center {
+.layout {
     display: flex;
+}
+
+.layout__container_align_center {
     justify-content: center;
 }
 
