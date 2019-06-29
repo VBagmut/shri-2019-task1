@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,42 @@
         }
     </style>
 </head>
+
 <body>
     <div class="theme">
         test
     </div>
+    <script>
+
+        const data = [
+            // на этот блок предикат вернет `true` и шаблон будет применён
+            { block: 'link' },
+
+            // на все следующие сущности предикат вернет `false` и шаблон не будет применён
+            { block: 'para' },
+            'link',
+            { block: 'link', elem: 'text' }
+        ];
+
+        const data2 = { block: 'text' };
+
+        function generateTemplate(data) {
+            const generator = obj => {
+                if (typeof obj !== 'object') {
+                    throw new Error('incorrect data');
+                }
+                return 'test';
+            };
+
+            if (Array.isArray(data)) {
+                return data.forEach(item => generator(item))
+            };
+            return generator(data);
+        }
+
+        console.log(generateTemplate(data));
+        console.log(generateTemplate(data2));
+    </script>
 </body>
+
 </html>
