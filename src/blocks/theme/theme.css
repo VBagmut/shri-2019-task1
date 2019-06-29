@@ -122,7 +122,7 @@ html {
     --space-xxxxl: 48px;
 }
 
-@media only screen and (max-width: 1144px) {
+@media screen and (max-width: 1144px) {
     .theme_breakpoint_default {
         flex-direction: column;
     }
@@ -131,7 +131,7 @@ html {
 .theme_gap_small {
     --gap: 32px;
 }
-@media only screen and (max-width: 1144px) {
+@media screen and (max-width: 1144px) {
     .theme_gap_small {
         --gap: 16px;
     }
