@@ -12,7 +12,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             // template: 'src/index.html'
-            templateContent: templateEngine(templatesData.index),
+            templateContent: templateEngine(templatesData.payment),
             contentBase: './build',
             watchContentBase: true
         }),
@@ -45,7 +45,7 @@ module.exports = {
                         },
                     },
                     { loader: "css-loader", options: {
-                        modules: true,
+                        modules: false,
                       } },
                     {
                         loader: "postcss-loader",
