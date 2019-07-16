@@ -1,0 +1,304 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.theme_color_project-default {
+    --default-bg-color: #FFFFFF;
+    --accent-bg-color: #0056B3;
+    --border-color: #000000;
+    --primary-text-color: #000000;
+    --secondary-text-color: rgba(0, 0, 0, 0.6);
+    --ghost-text-color: rgba(0, 0, 0, 0.3);
+    --link-text-color: #0070f0;
+}
+
+.theme_color_project-brand {
+    --default-bg-color: #0070f0;
+    --accent-bg-color: #FFFFFF;
+    --border-color: #FFFFFF;
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --ghost-text-color: rgba(255, 255, 255, 0.3);
+    --link-text-color: #FFFFFF;
+}
+
+
+.theme_color_project-inverse {
+    --default-bg-color: #000000;
+    --accent-bg-color: #FFFFFF;
+    --border-color: #FFFFFF;
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --ghost-text-color: rgba(255, 255, 255, 0.3);
+    --link-text-color: #0070f0;
+}
+
+.theme_color_project-warning {
+    --default-bg-color: #FF9900;
+    --accent-bg-color: #FFFFFF;
+    --border-color: #FFFFFF;
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --ghost-text-color: rgba(255, 255, 255, 0.3);
+    --link-text-color: #FFF;
+}
+
+.theme_color_megafon-brand {
+    --default-bg-color: #1FA55D;
+    --accent-bg-color: #FFFFFF;
+    --border-color: #FFFFFF;
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --ghost-text-color: rgba(255, 255, 255, 0.3);
+    --link-text-color: #FFF;
+}
+
+.theme_size_default_s {
+    --font-height-s: 7px;
+    --font-line-height-s: 18px;
+}
+
+.theme_size_default_m {
+    --font-height-m: 8px;
+    --font-line-height-m: 21px;
+}
+
+.theme_size_default_l {
+    --font-height-l: 10px;
+    --font-line-height-l: 25px;
+}
+
+.theme_size_default_xl {
+    --font-height-xl: 11px;
+    --font-line-height-xl: 28px;
+}
+
+.theme_size_default_xxl {
+    --font-height-xxl: 13px;
+    --font-line-height-xxl: 34px;
+}
+
+.theme_space_default_xxxs {
+    --space-xxxs: 2px;
+}
+
+.theme_space_default_xxs {
+    --space-xxs: 4px;
+}
+
+.theme_space_default_xs {
+    --space-xs: 8px;
+}
+
+.theme_space_default_s {
+    --space-s: 12px;
+}
+
+.theme_space_default_m {
+    --space-m: 16px;
+}
+
+.theme_space_default_l {
+    --space-l: 20px;
+}
+
+.theme_space_default_xl {
+    --space-xl: 24px;
+}
+
+.theme_space_default_xxl {
+    --space-xxl: 32px;
+}
+
+.theme_space_default_xxxl {
+    --space-xxxl: 40px;
+}
+
+.theme_space_default_xxxxl {
+    --space-xxxxl: 48px;
+}
+
+@media screen and (max-width: 1144px) {
+    .theme_breakpoint_default {
+        flex-direction: column;
+    }
+}
+
+.theme_gap_small {
+    --gap: 32px;
+}
+@media screen and (max-width: 1144px) {
+    .theme_gap_small {
+        --gap: 16px;
+    }
+}
+.layout__container {
+    display: flex;
+}
+
+.layout__container_align_center {
+    justify-content: center;
+}
+
+.layout__container_size_s {
+    max-width: 880px;
+}
+
+.layout__container_size_m {
+    max-width: 1144px;
+}
+.text_align_center {
+    text-align: center;
+}
+
+.text_size_s {
+    height: var(--font-height-s);
+}
+
+.text_size_m {
+    height: var(--font-height-m);
+}
+
+.text_size_l {
+    height: var(--font-height-l);
+}
+
+.text_size_xl {
+    height: var(--font-height-xl);
+}
+
+.text_size_xxl {
+    height: var(--font-height-xxl);
+}
+
+.text_type_h1 {
+    margin: 15px 0 21px;
+}
+
+.text_type_h2 {
+    margin: 48px 0 20px;
+}
+
+.text_type_h3 {
+    margin: 43px 0 0;
+}
+
+.text_type_p {
+    margin: 15px 0 21px;
+}
+
+.text_view_primary {
+    background-color: var(--primary-text-color);
+}
+
+.text_view_secondary {
+    background-color: var(--secondary-text-color);
+}
+
+.text_view_ghost {
+    background-color: var(--ghost-text-color);
+}
+
+.text_view_link {
+    background-color: var(--link-text-color);
+}
+
+/* FIXME: переделать проще */
+.text_size_s.text__word_width_s {
+    width: 20px;
+}
+
+.text_size_s.text__word_width_m {
+    width: 48px;
+}
+
+.text_size_s.text__word_width_l {
+    width: 100px;
+}
+
+.text_size_m.text__word_width_s {
+    width: 24px;
+}
+
+.text_size_m.text__word_width_m {
+    width: 56px;
+}
+
+.text_size_m.text__word_width_l {
+    width: 114px;
+}
+
+.text_size_l.text__word_width_s {
+    width: 28px;
+}
+
+.text_size_l.text__word_width_m {
+    width: 68px;
+}
+
+.text_size_l.text__word_width_l {
+    width: 138px;
+}
+
+.text_size_xl.text__word_width_s {
+    width: 32px;
+}
+
+.text_size_xl.text__word_width_m {
+    width: 74px;
+}
+
+.text_size_xl.text__word_width_l {
+    width: 154px;
+}
+
+.text_size_xxl.text__word_width_s {
+    width: 36px;
+}
+
+.text_size_xxl.text__word_width_m {
+    width: 88px;
+}
+
+.text_size_xxl.text__word_width_l {
+    width: 184px;
+}
+
+.text_size_s.text__word {
+    height: 7px;
+}
+
+.text_size_m.text__word {
+    height: 8px;
+}
+
+.text_size_l.text__word {
+    height: 10px;
+}
+
+.text_size_xl.text__word {
+    height: 11px;
+}
+
+.text_size_xxl.text__word {
+    height: 13px;
+}
+
+.payment {
+    /* TODO: Из уровня дизайн-сиcтемы должны использоваться:
+    cтили блока-паттерна .form;
+    стили контентного блока .text.
+    Ещё блок должен содержать свои уникальные дополнительные стили.
+    Скриншот: https://github.com/yndx-shri-reviewer/task-1/blob/master/assets/screenshots/payment.png
+     */
+    border: 3px solid var(--border-color);
+    padding-left: var(--space-xl);
+}
+
+
+
+/*# sourceMappingURL=style.css.map*/
