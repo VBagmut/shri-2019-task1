@@ -4,8 +4,14 @@ import React, { Component, Fragment } from 'react'
 import Head from 'next/head';
 // import '../static/styles/style.css';
 // import '../static/styles/style.css';
+// const { BEMDOM, BEMHTML } = require('zero-bem');
 
 export default class IndexPage extends Component {
+// componentDidMount() {
+//     console.log('test', BEMDOM, BEMHTML)
+// }
+
+
     render() {
         // const { props: { markup }} = this;
 // console.log(markup)
