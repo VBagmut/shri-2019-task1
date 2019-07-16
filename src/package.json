@@ -10,11 +10,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "bem-xjst": "^8.9.5",
     "next": "^9.0.1",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "zero-bem": "^0.2.5"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.3",
