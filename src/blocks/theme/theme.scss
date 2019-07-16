@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.theme {
+    &_color {
+        &_project-default {
+            --default-bg-color: #FFFFFF;
+            --accent-bg-color: #0056B3;
+            --border-color: #000000;
+            --primary-text-color: #000000;
+            --secondary-text-color: rgba(0, 0, 0, 0.6);
+            --ghost-text-color: rgba(0, 0, 0, 0.3),;
+            --link-text-color: #0070f0;
+        }
+        &_project-brand {
+            --default-bg-color: #0070f0;
+            --accent-bg-color: #FFFFFF;
+            --border-color: #FFFFFF;
+            --primary-text-color: #FFFFFF;
+            --secondary-text-color: rgba(255, 255, 255, 0.6);
+            --ghost-text-color: rgba(255, 255, 255, 0.3);
+            --link-text-color: #FFFFFF;
+        }
+        &_project-inverse {
+            --default-bg-color: #000000;
+            --accent-bg-color: #FFFFFF;
+            --border-color: #FFFFFF;
+            --primary-text-color: #FFFFFF;
+            --secondary-text-color: rgba(255, 255, 255, 0.6);
+            --ghost-text-color: rgba(255, 255, 255, 0.3);
+            --link-text-color: #0070f0;
+        }
+        &_project-warning {
+            --default-bg-color: #FF9900;
+            --accent-bg-color: #FFFFFF;
+            --border-color: #FFFFFF;
+            --primary-text-color: #FFFFFF;
+            --secondary-text-color: rgba(255, 255, 255, 0.6);
+            --ghost-text-color: rgba(255, 255, 255, 0.3);
+            --link-text-color: #FFFFFF;
+        }
+        &_megafon-brand {
+            --default-bg-color: #1FA55D;
+            --accent-bg-color: #FFFFFF;
+            --border-color: #FFFFFF;
+            --primary-text-color: #FFFFFF;
+            --secondary-text-color: rgba(255, 255, 255, 0.6);
+            --ghost-text-color: rgba(255, 255, 255, 0.3);
+            --link-text-color: #FFFFFF;
+        }
+    }
+
+    &_size_default {
+        &_s {
+            --font-height-s: 7px;
+            --font-line-height-s: 18px;
+        }
+        &_m {
+            --font-height-m: 8px;
+            --font-line-height-m: 21px;
+        }
+        &_l {
+            --font-height-l: 10px;
+            --font-line-height-l: 25px;
+        }
+        &_xl {
+            --font-height-xl: 11px;
+            --font-line-height-xl: 28px;
+        }
+        &_xxl {
+            --font-height-xxl: 13px;
+            --font-line-height-xxl: 34px;
+        }
+    }
+
+    &_space_default {
+        &_xxxs {
+            --space-xxxs: 2px;
+        }
+        &_xxs {
+            --space-xxs: 4px;
+        }
+        &_xs {
+            --space-xs: 8px;
+        }
+        &_s {
+            --space-s: 12px;
+        }
+        &_m {
+            --space-m: 16px;
+        }
+        &_l {
+            --space-l: 20px;
+        }
+        &_xl {
+            --space-xl: 24px;
+        }
+        &_xxl {
+            --space-xxl: 32px;
+        }
+        &_xxxl {
+            --space-xxxl: 40px;
+        }
+        &_xxxxl {
+            --space-xxxxl: 48px;
+        }
+        &_xxxxxl {
+            --space-xxxxxl: 72px;
+        }
+    }
+
+    &_gap_small {
+        --gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1144px) {
+    .theme_gap_small {
+        --gap: 16px;
+    }
+}
+// TODO: просто добавить похожий стиль блокам для их перестроения т.к. theme_breakpoint_default удален из задания
+// @media screen and (max-width: 1144px) {
+//     .theme_breakpoint_default {
+//         flex-direction: column;
+//     }
+// }
