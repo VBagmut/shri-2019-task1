@@ -7,7 +7,7 @@ export default class IndexPage extends Component {
         return (
             <div
                 dangerouslySetInnerHTML={{
-                    __html: generateMarkup(templatesData.payment)
+                    __html: generateMarkup(templatesData.grid)
                 }}
             />
         );

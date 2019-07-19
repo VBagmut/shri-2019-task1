@@ -6,6 +6,16 @@ module.exports = {
             elemMods: { size: "m", active: true }
         }
     ],
+    grid: [
+        {
+            block: 'grid',
+            mods: { 'm-columns': '10'},
+            content: {
+                block: 'text',
+                content: 'lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000lorem1000'
+            }
+        }
+    ],
     product: [],
     content: [],
     collect: [],
