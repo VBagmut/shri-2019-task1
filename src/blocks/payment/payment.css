@@ -1,0 +1,10 @@
+.payment {
+    /* TODO: Из уровня дизайн-сиcтемы должны использоваться:
+    cтили блока-паттерна .form;
+    стили контентного блока .text.
+    Ещё блок должен содержать свои уникальные дополнительные стили.
+    Скриншот: https://github.com/yndx-shri-reviewer/task-1/blob/master/assets/screenshots/payment.png
+     */
+    border: 3px solid var(--border-color);
+    padding-left: var(--space-xl);
+}

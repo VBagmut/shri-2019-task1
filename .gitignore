@@ -90,3 +90,5 @@ typings/
 
 # for MacOS
 .DS_Store
+
+.vscode
