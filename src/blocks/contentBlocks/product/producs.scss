@@ -1,0 +1,9 @@
+.product {
+    min-height: 280px;
+    &__label {
+        margin-bottom: var(--space-s);
+    }
+    &__image {
+    height: 160px;
+    }
+}

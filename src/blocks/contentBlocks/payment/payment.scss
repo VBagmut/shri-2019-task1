@@ -6,5 +6,8 @@
     Скриншот: https://github.com/yndx-shri-reviewer/task-1/blob/master/assets/screenshots/payment.png
      */
     border: 3px solid var(--border-color);
-    padding-left: var(--space-xl);
+    // padding-left: var(--space-xl);
+    &__header {
+        padding-top: 29px;
+      }
 }

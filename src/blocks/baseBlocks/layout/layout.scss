@@ -1,6 +1,8 @@
 .layout {
     &__container {
         display: flex;
+        margin-left: auto;
+        margin-right: auto;
 
         &_align_center {
             justify-content: center;
