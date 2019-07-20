@@ -1,29 +1,30 @@
-.form_border_all {
-    border: 3px solid var(--border-color);
-}
-
-.form_view_default {
-    background-color: 3px solid var(--default-bg-color);
-}
-
-.form__item {
-    display: flex;
-}
-
-.form__item_border_bottom {
-    border-bottom: 1px solid var(--border-color);
-}
-
-.form__item_border_bottom:last-child {
-    border-bottom: none;
-}
-
-.form__item_distribute_between {
-    justify-content: space-between;
-}
-
-.form__item_vertical-align_center {
-    align-items: center;
+.form {
+    &_border {
+        &_all {
+            border: 3px solid var(--border-color);
+        }
+        
+    }
+    &_view {
+        &_default {
+            background-color: 3px solid var(--default-bg-color);
+        }
+    }
+    &__item {
+        display: flex;
+        &_border_bottom {
+            border-bottom: 1px solid var(--border-color);
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+        &_distribute_between {
+            justify-content: space-between;
+        }
+        &_vertical-align_center {
+            align-items: center;
+        }
+    }
 }
 
 .form__item_indent-b_xxxs {

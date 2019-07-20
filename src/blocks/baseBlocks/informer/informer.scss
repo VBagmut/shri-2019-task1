@@ -1,9 +1,17 @@
+.informer_border_all {
+    border: 3px solid var(--border-color);
+}
+
+.informer_view_default {
+    background-color: var(--default-bg-color);
+}
+
 .informer__content {
     display: flex;
 }
 
 .informer__content_distribute_default {
-    justify-content: stretch;
+    justify-content: flex-start;
 }
 
 .informer__content_distribute_between {
@@ -27,7 +35,7 @@
 }
 
 .informer__action_distribute_default {
-    justify-content: stretch;
+    justify-content: flex-start;
 }
 
 .informer__action_distribute_between {

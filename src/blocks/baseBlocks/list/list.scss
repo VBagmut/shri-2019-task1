@@ -1,11 +1,11 @@
-.list__item_border_all {
+.list_border_all {
     border: 3px solid var(--border-color);
 }
-  
-.list__item_view_default {
+
+.list_view_default {
     background-color: var(--default-bg-color);
 }
-/* ?? Уточнить толщину бордера */
+
 .list__item_border_bottom {
     border-bottom: 3px solid var(--border-color);
 }
@@ -20,26 +20,26 @@
 .list__item_vertical-align{
     vertical-align: center;
 }
-.list__item_ident-t_m{
+.list__item_indent-t_m{
     margin-top: var(--space-m);
 }
 
-.list__item_ident-b_s{
+.list__item_indent-b_s{
     margin-bottom: var(--space-s);
 }
 
-.list__item_ident-b_m{
+.list__item_indent-b_m{
     margin-bottom: var(--space-m);
 }
-.list__item_ident-b_l{
+.list__item_indent-b_l{
     margin-bottom: var(--space-l);
 }
-.list__item_ident-b_xl{
+.list__item_indent-b_xl{
     margin-bottom: var(--space-xl);
 }
 
 .list__item_space-b_s{
-    padding-bottom: var(--space-b);        
+    padding-bottom: var(--space-s);        
 }
 
 .list__item_space-a_l{
