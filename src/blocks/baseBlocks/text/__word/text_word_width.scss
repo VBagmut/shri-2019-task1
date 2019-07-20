@@ -1,0 +1,14 @@
+.text__word_width {
+    &_s {
+        width: var(--word-width-s);
+        height: var(--word-height);
+    }
+    &_m {
+        width: var(--word-width-m);
+        height: var(--word-height);
+    }
+    &_l {
+        width: var(--word-width-l);
+        height: var(--word-height);
+    }
+}

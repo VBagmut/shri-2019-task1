@@ -1,0 +1,14 @@
+.text_view {
+    &_primary {
+        background-color: var(--primary-text-color);
+    }
+    &_secondary {
+        background-color: var(--secondary-text-color);
+    }
+    &_ghost {
+        background-color: var(--ghost-text-color);
+    }
+    &_link {
+        background-color: var(--link-text-color);
+    }
+}
